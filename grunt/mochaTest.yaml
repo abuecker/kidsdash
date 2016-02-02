@@ -1,0 +1,5 @@
+unit:
+  options:
+    require: 'babel/register'
+  src:
+    - src/**/*.spec.js

@@ -1,0 +1,25 @@
+box: node:4.2
+no-response-timeout: 20
+
+build:
+  steps:
+    - script:
+        name: Clear out node modules (for local builds)
+        code: rm -rf node_modules
+
+    - npm-install
+
+    - script:
+        name: Run the tests
+        code: npm test
+
+deploy:
+
+  steps:
+
+    - s3sync:
+        source_dir: dist/
+        delete-removed: true
+        bucket-url: $AWS_BUCKET_URL
+        key-id: $AWS_ACCESS_KEY
+        key-secret: $AWS_SECRET_KEY

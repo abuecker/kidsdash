@@ -1,0 +1,4 @@
+files:
+    src:
+      - src/**/*.js[x]
+      - "!src/js/libs/**/*.js"

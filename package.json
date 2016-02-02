@@ -1,0 +1,65 @@
+{
+  "name": "kidsdash",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abuecker/kidsdash.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abuecker/kidsdash/issues"
+  },
+  "homepage": "https://github.com/abuecker/kidsdash#readme",
+  "devDependencies": {
+    "babel": "^6.3.26",
+    "babel-cli": "^6.3.17",
+    "babel-core": "^6.3.26",
+    "babel-eslint": "^5.0.0-beta6",
+    "babel-loader": "^6.2.1",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-react-hmre": "^1.0.1",
+    "babel-preset-stage-0": "^6.3.13",
+    "css-loader": "^0.22.0",
+    "envify": "^3.4.0",
+    "eslint": "^1.9.0",
+    "eslint-loader": "^1.2.0",
+    "eslint-plugin-babel": "^3.0.0",
+    "eslint-plugin-no-multiline-vars": "git+https://github.com/abuecker/eslint-plugin-no-multiline-vars.git",
+    "eslint-plugin-no-tabs": "git+https://github.com/abuecker/eslint-plugin-no-tabs.git",
+    "eslint-plugin-react": "^3.14.0",
+    "expose-loader": "^0.7.1",
+    "express": "^4.13.3",
+    "file-loader": "^0.8.4",
+    "grunt": "^0.4.5",
+    "grunt-bg-shell": "^2.3.1",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-clean": "^0.7.0",
+    "grunt-env": "^0.4.4",
+    "grunt-eslint": "^17.3.1",
+    "grunt-webpack": "^1.0.11",
+    "html-webpack-plugin": "^1.6.2",
+    "load-grunt-config": "^0.19.0",
+    "selenium-standalone": "^4.7.1",
+    "style-loader": "^0.13.0",
+    "time-grunt": "^1.2.2",
+    "transform-loader": "^0.2.3",
+    "url-loader": "^0.5.6",
+    "webpack": "^1.12.12",
+    "webpack-dev-middleware": "^1.5.1",
+    "webpack-dev-server": "^1.12.1"
+  },
+  "dependencies": {
+    "d3": "^3.5.13",
+    "keymirror": "^0.1.1",
+    "moment": "^2.10.6",
+    "react": "^0.14.6",
+    "react-dom": "^0.14.6"
+  }
+}

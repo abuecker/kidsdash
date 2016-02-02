@@ -1,0 +1,32 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <link rel="icon" href="favicon.ico">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Happy Life</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+    <script src="{%= o.webpack.assetsByChunkName.vendor %}"></script>
+    <script src="{%= o.webpack.assetsByChunkName.stylesheets %}"></script>
+
+
+  </head>
+  <body>
+    <!--[if lt IE 10]>
+        <p class="browserupgrade">
+          You are using an <strong>outdated</strong> browser.
+          Please <a href="http://browsehappy.com/">upgrade your browser</a> to
+          improve your experience.
+        </p>
+    <![endif]-->
+
+    <!-- Load the app -->
+    <div id='dash'></div>
+    <script src="{%= o.webpack.assetsByChunkName.app %}"></script>
+
+  </body>
+</html>

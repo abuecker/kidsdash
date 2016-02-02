@@ -1,0 +1,12 @@
+dist:
+  - eslint
+  - clean:dist
+  - env:dist
+  - webpack:dist
+
+dev:
+  - eslint
+  - bgShell:dev
+
+test:
+  - dist
